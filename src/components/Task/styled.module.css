@@ -1,0 +1,87 @@
+.containerTask {
+  width: 100%;
+  height: auto;
+
+  padding: 10px;
+
+  border-radius: 10px;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.25);
+
+  transition: all 0.3s;
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 5% 10%;
+}
+
+.dark {
+  background: gray;
+}
+
+.light {
+  background: white;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.containerTask:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.textComplete {
+  color: green;
+}
+.textNoComplete {
+  color: red;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+
+  transition: all 0.3s;
+  color: black;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.2);
+  color: white;
+}
+
+.done {
+  background: rgba(73, 73, 223, 0.411);
+}
+
+.done:hover {
+  background: rgba(73, 73, 223);
+}
+
+.edit {
+  background: rgba(153, 205, 50, 0.3);
+}
+
+.edit:hover {
+  background: rgba(153, 205, 50);
+}
+
+.del {
+  background: rgba(255, 0, 0, 0.3);
+}
+
+.del:hover {
+  background: red;
+}

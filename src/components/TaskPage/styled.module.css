@@ -1,0 +1,96 @@
+.containerTask {
+  width: 80%;
+  height: auto;
+
+  min-height: 100vh;
+
+  margin: 0px 15% 0 auto;
+}
+
+.titlePage {
+  color: beige;
+  font-size: 3.8rem;
+  margin: 0;
+}
+
+.containerSearch {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+  margin: 10px 0;
+  padding: 30px;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+}
+
+.titleH2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.titleH2Dark {
+}
+
+.input {
+  border: none;
+  background: transparent;
+
+  font-size: 2rem;
+
+  border: 5px solid transparent;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.darkSearch {
+  color: white;
+  border: 5px solid gray;
+}
+
+.lightSearch {
+  border: 5px solid black;
+  color: black;
+}
+
+.containerTasks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  justify-items: center;
+  gap: 50px;
+  margin: 40px auto;
+}
+
+.containerRowTask {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 20px;
+}
+
+.titleH2 {
+  font-size: 3rem;
+}
+
+.BtnTask {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.dark {
+  background: green;
+  color: white;
+}
+
+.light {
+  color: white;
+  background: rgb(23, 182, 23);
+}

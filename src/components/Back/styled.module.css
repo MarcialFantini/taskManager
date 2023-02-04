@@ -1,0 +1,19 @@
+.lightContainer {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  transform: translate(100vw);
+
+  transition: all 0.3s linear;
+
+  background-image: url("../../assets/backWhite.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.light {
+  transform: translate(0);
+}

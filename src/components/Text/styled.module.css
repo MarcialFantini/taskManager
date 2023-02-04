@@ -1,0 +1,23 @@
+.dark,
+.light {
+  width: 80%;
+  margin: auto;
+  font-size: 2rem;
+  margin: 0;
+  padding: 5% 15%;
+  border-radius: 10px;
+  transition: all 0.3s;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(50px);
+
+  box-shadow: 0 0 10px 0 black;
+}
+
+.dark {
+  color: white;
+}
+
+.light {
+  color: black;
+}

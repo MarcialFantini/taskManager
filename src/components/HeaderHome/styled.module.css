@@ -1,0 +1,24 @@
+.header {
+  height: auto;
+  min-height: 300px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("../../assets/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  text-align: center;
+}

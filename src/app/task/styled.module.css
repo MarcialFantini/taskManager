@@ -1,0 +1,29 @@
+.containerPage {
+  position: relative;
+
+  overflow: hidden;
+  z-index: 0;
+}
+
+.lightContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform: translate(100vw);
+
+  transition: all 0.3s linear;
+
+  background: rgb(180, 58, 159);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 58, 159, 1) 0%,
+    rgba(226, 71, 71, 1) 64%,
+    rgba(199, 127, 26, 1) 100%
+  );
+
+  z-index: -1;
+}
+
+.light {
+  transform: translate(0);
+}

@@ -1,0 +1,58 @@
+.containerAll {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  z-index: 120;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.PopContainer {
+  width: 80%;
+  max-width: 500px;
+  max-height: 500px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background: rgba(255, 255, 255);
+  backdrop-filter: blur(40px);
+
+  border-radius: 10px;
+  padding: 3% 10%;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  gap: 10px;
+  margin: 0;
+}
+
+.label > input {
+  width: 100%;
+  background: none;
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.btnSubmit {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+
+  font-size: 2rem;
+  margin: 0;
+  color: white;
+  background: black;
+  border: 5px solid black;
+  border-radius: 20px;
+}
